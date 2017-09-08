@@ -1,0 +1,136 @@
+/*????????????━????*/
+
+.d7:after {content:""; clear:both; display:table}
+.d7 form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
+}
+.face-icon{
+font-size: 40px;
+color: #99cc66;
+cursor: pointer;
+}
+.d7 input {
+  width: 180px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #324b4e;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+.d7 input:focus {
+  width: 200px;
+}
+.d7 button {
+ width: 42px;
+  height: 42px;
+  background: none;
+  border-radius:50%;
+
+
+
+}
+.d7 button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+/*???????━??|???????′???????′????*/
+#yzm {
+    width: 85%;
+    display: inline;
+    margin-top:10px;
+}
+/*?????????━????????━????????━????*/
+.progress {
+    margin-bottom: 15px;
+}
+/*??????━??a??????：??????：????*/
+.wh64{
+    width: 64px;
+    height: 64px;
+    border-radius:50% ;
+}
+/*??????′???????━?????━?????????━???????：??????：??*/
+.mar_t15{
+    margin-top: 15px;
+}
+.textarea{resize:none;}
+.pad{
+padding:10px;
+}
+/*??????????━???????：??|?????????′???????━?|???????：??????：???*/
+.suojing{text-indent: 2em;
+    line-height:30px;
+    font-size:18px;
+}
+
+.bg_white{
+background:#fff;
+}
+/*padding*/
+.pad0{
+    padding: 0;
+}
+/*page-header*/
+.page-header{
+    margin-top: 0;
+}
+.page-header h1{
+    margin: 0;
+    font-size: 16px;
+}
+/*uesr_search*/
+.uesr_search{
+    padding: 10px;
+    border: solid 1px #ddd;
+    border-top: none;
+}
+/*tag*/
+.taglist{
+    padding-top: 15px;
+}
+.taglist .alert{
+    margin: 0 15px 15px 0;
+}
+.img_li{
+    float: left;
+    width:120px;
+    list-style: none;
+margin-top: 20px;
+    
+}
+.img_li img{
+    width: 100px;
+    height: 100px;
+}
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px ;
+}
+/*nav*/
+.pagination input
+{
+    width:28px;
+    padding:0px; 
+    height: 20px;
+    border: none;
+    text-align: center;
+}
+.pagination button
+{
+    width:28px;
+    padding:0px; 
+    height: 20px;
+    text-align: center;
+    margin: 0px;
+    border: none;
+    background: none;
+}
+ 
+ 
