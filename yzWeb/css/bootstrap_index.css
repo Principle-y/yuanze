@@ -1,0 +1,356 @@
+﻿/* CSS Document */
+body{
+  font-family: Monospace;
+}
+h2{
+    font-size: 42px;
+    color: #7dab29;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #775022;
+}
+p{
+    font-size: 16px;
+}
+.lvjing{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.54);
+  padding: 20px 0;
+}
+/*.star-icon{
+  background: #ccc;
+color: #fff;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+text-align: center;
+line-height: 40px;
+margin-right: 20px;
+}*/
+/*导航*/
+.navbar-default{
+background-color:#fff;
+border: none;
+box-shadow: 0 2px 8px 0 rgba(50,50,50,0.25);
+
+}
+.navbar-default .navbar-nav > li > a{
+font-size: 16px;
+font-weight: bold;
+color: #666;
+height: 70px;
+line-height: 35px;
+}
+.navbar-default .navbar-toggle:hover{
+    border-color: #40d2b1;
+    background-color: #40d2b1;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1D9F82;
+}
+.navbar-toggle{
+  margin-top: 17px;
+}
+.navbar img{
+  height: 60px;
+    margin-top: -15px;
+}
+/*home*/
+canvas {position: absolute; backface-visibility: hidden; -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; }
+#home img { position: absolute; -webkit-transition: opacity .3s; transition: opacity .3s; }
+#home { margin: 0 auto; width: 100%; height: 900px;
+  margin:0 auto;overflow: hidden;
+    
+margin-top: 70px;}
+/*bbs*/
+#bbs{
+  text-align: center;
+}
+#bbs a{
+  color: #212121;
+  text-decoration: none;
+}
+#bbs img{
+  margin: 0 auto;
+}
+#bbs h3{
+  color: #7dab29;
+  font-weight: bold;
+}
+#bbs .col-md-4{
+  padding: 10px;
+}
+#bbs .col-md-4 :hover{
+background: #f1f1f1;
+box-shadow: 1px 1px 4px #ccc;
+}
+
+/*html5*/
+#html5{
+  background: #f8f8f8;
+}
+#html5 p{
+    height: 20px;
+    line-height: 15px;
+    display: block;
+}
+#html5 p i{
+    display: block;
+    padding-left: 200px;
+    margin-top: -18px;
+}
+
+#html5 h3{
+  color: #775022;
+    padding-bottom: 20px;
+}
+#html5 h3 a{
+    padding-left: 80px;
+}
+#html5 img{
+  padding-top: 90px;
+    padding-bottom: 50px;
+}
+/*course*/
+#course{
+  background: #fff;
+  padding: 0;
+  text-align: center;
+}
+.course{
+  background: #fff;
+}
+.course img{
+  margin: 0 auto;
+}
+#course .col-md-3.col-sm-6 {
+    padding-bottom: 20px;
+}
+.box{
+    position: relative;
+    perspective: 1000px;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    opacity:1;
+    transform: translateY(0) rotateX(0);
+    transition: all 0.6s ease-in-out 0s;
+}
+.box:hover img{
+    transform: translateY(-100%) rotateX(90deg);
+    transform-origin: center bottom 0;
+    opacity:0;
+}
+.box .over-layer{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity:0;
+    background:#333d4b;
+    text-align:center;
+    padding: 0 20px;
+    transition: all 0.60s ease-in-out 0s;
+}
+.box:hover .over-layer{
+    opacity:1;
+}
+.box .title,
+.box .description,
+.box .social-links{
+    position: relative;
+    top: 11%;
+    color: #d3d3d3;
+}
+.box .title{
+    text-transform: capitalize;
+}
+.box .title:after,
+.box .description:after{
+    content:"";
+    width: 50%;
+    display: block;
+    margin: 10px auto 0;
+    border-bottom: 1px solid #fff;
+}
+.box .social-links{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+.box .social-links li{
+    margin: 10px;
+    display: inline-block;
+}
+.box .social-links li a{
+    color: #fff;
+    font-size: 20px;
+}
+.box .social-links li a:hover{
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+/*app*/
+#app{
+    background: #f8f8f8;
+ padding-bottom: 20px;
+}
+
+/*page*/
+#page{
+  margin: 0 auto;
+  text-align: center;
+  background: #f8f8f8;
+}
+
+#page h4{
+  color: #775022;
+  font-weight: bold;
+}
+#page .btn{
+    background: transparent;
+    border: 1px solid #40D2B1;
+    border-radius: 0px;
+    color: #40D2B1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.5s;
+}
+#page .btn:hover{
+    background: #7dab29;
+    color: #fff;
+}
+
+.box1{
+    position: relative;
+    perspective: 1000px;
+}
+.box1 .box-img{
+    transform: rotateY(0);
+    transition: all 0.50s ease-in-out 0s;
+}
+.box1:hover .box-img{
+    transform: rotateY(-90deg);
+}
+.box1 .box-img img{
+    width: 100%;
+    height: auto;
+}
+.box1 .box-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 60px 20px;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    transform: rotateY(90deg);
+    transition: all 0.50s ease-in-out 0s;
+}
+.box1:hover .box-content{
+    transform: rotateY(0);
+}
+.box1 .title{
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.box1 .description{
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.box1 .title:after,
+.box1 .description:after{
+    content: "";
+    width: 80%;
+    display: block;
+    border-bottom: 1px solid #fff;
+    margin: 15px auto;
+}
+.box1 .social-links{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.box1 .social-links li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.box1 .social-links li a{
+    font-size: 20px;
+    color: #a6a6a6;
+}
+.box1 .social-links li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+@media only screen and (max-width: 990px) {
+    .box1{  margin-bottom:20px; }
+}
+@media only screen and (max-width: 479px) {
+    .box1 .box-content{ padding: 20px; }
+}
+/*content*/
+#contect{
+  background: url(../images/contact-bg.png) no-repeat;
+  background-size: cover;
+  color: #fff;
+ 
+}
+
+#contect p{
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+#contect .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#contect input[type="submit"]{
+background: #7dab29;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+#contect input[type="submit"]:hover{
+background: rgb(44, 142, 120);
+}
+#contect a{
+    color: #fff;
+}
+#contect .img_ li{
+    float: left;
+    list-style: none;
+    padding:10px;
+}
+#contect .img_ li img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+#contect .img_ h2{
+    padding-top: 10px;
+}
+/*footer*/
+footer{
+  font-weight: 500;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
